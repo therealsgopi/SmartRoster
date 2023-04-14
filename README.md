@@ -27,12 +27,12 @@ The only hardware that we need is our smartphone's camera which will be used to 
 4) Next naviagte to the *server* directory.
 5) Run `pip install -r requirements.txt` to download all the requirements for the django server.
 6) Run the command `py manage.py runserver` in the same directory to get the backend running.
-7) Go to http://localhost:3000/ to access the Attendance Portal
+7) Go to http://localhost:3000/ to access the Attendance Portal.
 8) Upload a class image, and the students register number and status (present/absent) will be returned from the backend after applying our proposed model.
-9) You may download the attendance report using the 'Download Attendance Report' button
+9) You may download the attendance report using the 'Download Attendance Report' button.
      
 ### Python Notebooks
-1) Clone the repository and navigate to the python notebook of the approach you wise to run
-2) Open the notebook using Google Colab or Jupyter Notebook
-3) You may either link your google drive to provide images for training and testing or upload locally in the session of the python notebook
+1) Clone the repository and navigate to the python notebook of the approach you wish to run.
+2) Open the notebook using Google Colab or Jupyter Notebook or run the file locally ensuring you have installed the requirements mentioned above.
+3) You may either link your google drive to provide images for training and testing or upload locally in the session of the python notebook.
 4) Run cell wise to first generate the embeddings for the train images and then run it on the test image to identify and classify the segmented face.
