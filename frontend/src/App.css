@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  background-color: rgb(246, 245, 228);
+  height:100%;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.VitLogoMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#VIT-Logo {
+  height: 300px;
+  width: 500px;
+}
+
+.attendance-controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#image {
+  height: 400px;
+  width: 600px;
+  margin: 20px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin: 10px;
+}
+
+#control-button {
+  border-width: 0px;
+  background-color: rgb(93, 189, 253);
+  color: black;
+  padding: 10px;
+  margin: 0px 10px;
+  font-weight: 700;
+  border-radius: 8px;
+}
