@@ -36,3 +36,5 @@ The only hardware that we need is our smartphone's camera which will be used to 
 2) Open the notebook using Google Colab or Jupyter Notebook or run the file locally ensuring you have installed the requirements mentioned above.
 3) You may either link your google drive to provide images for training and testing or upload locally in the session of the python notebook.
 4) Run cell wise to first generate the embeddings for the train images and then run it on the test image to identify and classify the segmented face.
+     
+> **_NOTE:_**  Run the Python Notebooks in a GPU-powered environment/system. 
